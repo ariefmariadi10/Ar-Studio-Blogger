@@ -500,22 +500,32 @@ footer.footer .move-up span:hover {
 
 /* viewport less than or equel to 750px */
 
-/* viewport less than or equel to 750px */
+/* viewport less than or equel to 430px */
 
 @media (max-width:430px) {
     main .site-title {
         background-size: cover;
-        height: 100vh;
+        height: 75vh;
     }
     main .site-title .site-background {
         padding-top: 3rem;
         text-align: left;
         color: var(--white);
         padding-left: 2rem;
-        
     }
     main .blog {
-        height: 125vh;
+        background: url("../assets/Abract01.png");
+        background-repeat: no-repeat;
+        background-position: right;
+        height: 70vh;
+        width: 100%;
+        background-size: 67%;
+    }
+    main .blog .blog-post {
+        padding-top: 2rem;
+    }
+    main .site-content {
+        padding-top: 2rem;
     }
     .site-content .post-content>.post-image .post-info {
         display: none !important;
